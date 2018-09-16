@@ -1,0 +1,285 @@
+html,body,img{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:"lk_font";//这里的beida根据自己的需要自己取名字。
+
+src:url("../fonts/glyphicons-halflings-regular.eot")  format("embedded-opentype"),
+
+url("../fonts/glyphicons-halflings-regular.svg")  format("svg"),
+
+url("../fonts/glyphicons-halflings-regular.ttf")  format("truetype"),
+
+url("../fonts/glyphicons-halflings-regular.woff")  format("woff")
+
+}
+/*header部分*/
+.btn-info {
+    color: #fff;
+    background-color: #0AB4F7;
+    border-color: #46b8da;
+}
+.btn-info:focus,
+.btn-info.focus {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #1b6d85;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color:  #086DF2;
+    border-color: #269abc;
+}
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+.btn-info:active:hover,
+.btn-info.active:hover,
+.open > .dropdown-toggle.btn-info:hover,
+.btn-info:active:focus,
+.btn-info.active:focus,
+.open > .dropdown-toggle.btn-info:focus,
+.btn-info:active.focus,
+.btn-info.active.focus,
+.open > .dropdown-toggle.btn-info.focus {
+    color: #fff;
+    background-color: #269abc;
+    border-color: #1b6d85;
+}
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+    background-image: none;
+}
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled.focus,
+.btn-info[disabled].focus,
+fieldset[disabled] .btn-info.focus {
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.btn-info .badge {
+    color: #5bc0de;
+    background-color: #fff;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+#lk-header .top-bar{
+    height: 40px;
+    border-bottom: 1px solid #E0E0E0;
+    line-height: 39px;
+    font-size: 13px;
+    position: relative;
+    z-index: 9999;
+}  #lk-header .top-bar .container .row div{
+    border-right: 1px solid #E0E0E0;
+}
+#lk-header .top-bar .container .row .btn-box{
+    border-right: none;
+}
+#lk-header .top-bar .container .row .btn-box .btn-login{
+    margin-left: 10px;
+}
+#lk-header .top-bar .container .row img{
+    position: absolute;
+    top: 28px;
+    left: 37px;
+    display: none;
+    cursor: pointer;
+}
+#lk-header .top-bar .container .row .box-show .text-hover{
+    display: inline-block;
+}
+#lk-header .top-bar .container .row .box-show a:hover img{
+    display: block;
+}
+/*header部结束*/
+/*nav部分*/
+.navbar-brand {
+    float: left;
+    height: 70px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: #e7e7e7;
+}
+#lk-header .navbar-lk .navbar-brand img{
+    margin-top: -7px;
+}
+#lk-header .navbar-lk .navbar-nav li.active a,
+#lk-header .navbar-lk .navbar-nav li a:hover
+{
+    background-color: transparent;
+    border-bottom: 2px solid #0AB4F7;
+}
+
+#lk-header .navbar-lk .navbar-toggle {
+    margin-top: 18px;
+}
+
+/*nav结束*/
+/*banner部分*/
+    .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+    #lk-carousel{
+
+    }
+    #lk-carousel .carousel-inner .item{
+        background: no-repeat center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    @media screen and(min-width: 800px){
+        #lk-carousel .carousel-inner  .item{
+            height: 410px;
+        }
+    }
+/*.img-responsive,*/
+/*.thumbnail > img,*/
+/*.thumbnail a > img,*/
+/*.carousel-inner > .item > img,*/
+/*.carousel-inner > .item > a > img {*/
+    /*display: block;*/
+    /*max-width: 100%;*/
+    /*height: auto;*/
+/*}*/
+/*banner结束*/
+
+/*关于我们*/
+    #lk-about .title{
+        padding: 20px 0;
+        position: relative;
+    }
+    #lk-about .title img{
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+    }
+    #lk-about .container p{
+        font-size: 15px;
+        line-height: 29px;
+    }
+    #lk-about .text-about{
+        margin-top: 25px;
+    }
+/*关于我们*/
+
+/*产品*/
+    #lk-product{
+        background-color: #F0F0F0;
+        margin-top: 20px;
+    }
+    #lk-product .container .row .nav-tabs{
+        padding-top: 20px;
+    }
+    #lk-product .container .row .nav-tabs  li a{
+        font-size: 18px;
+        color: #999999;
+    }
+    #lk-product .container .row li.active a{
+        border: none;
+        background-color: #F0F0F0;
+        border-bottom: 2px solid #0AB4F7;
+        color: #000;
+    }
+    .tab-content{
+        padding-top: 20px;
+    }
+    #lk-product .container .pd-top{
+        margin-top: 40px;
+    }
+    .tab-content #lk-product-1 .pd-m-top{
+        margin-top: 100px;
+    }
+    .tab-content #lk-product-2{
+    background: transparent;
+    padding: 20px 0;
+}
+    #lk-product .tab-content #lk-product-4{
+        padding-top: 10px;
+    }
+    #lk-product .tab-content #lk-product-4 .btn-l{
+        margin-right: 20px;
+    }
+/*产品*/
+
+/*热门课程*/
+    #lk-hot .title img{
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+    }
+    #lk-hot .lesson{
+        padding: 15px 0;
+    }
+    #lk-hot .lesson .media-left{
+        width: 20%;
+    }
+    #lk-hot .lesson .media-body{
+        width: 60%;
+    }
+    #lk-hot .lesson .media-right{
+        width: 20%;
+        font-size: 16px;
+        text-align: left;
+        vertical-align: middle;
+    }
+    #lk-hot .lesson .text-title{
+        margin: 10px 0;
+    }
+
+/*热门课程*/
+
+/*友情链接*/
+    #lk-link .title{
+        position: relative;
+        padding: 20px 0;
+    }
+    #lk-link .title img{
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+    }
+    #lk-link .logos {
+        list-style: none;
+        text-align: center;
+    }
+    #lk-link .logos li{
+        display: inline-block;
+        padding: 20px 30px;
+
+    }
+/*友情链接*/
+
+/*尾部*/
+    #lk-footer{
+        width: 100%;
+        height: 200px;
+        /*background: url("../images/ft_bg.png") no-repeat center;*/
+        color: #ffffff;
+        font-size: 16px;
+    }
+    #lk-footer ul{
+        list-style: none;
+    }
+/*尾部*/

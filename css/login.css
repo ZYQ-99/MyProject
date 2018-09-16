@@ -1,0 +1,127 @@
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li > a:hover {
+    border-color: transparent;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #000000;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #ddd;
+}
+.nav-tabs.nav-justified {
+    width: 100%;
+    border-bottom: 0;
+}
+.nav-tabs.nav-justified > li {
+    float: none;
+}
+.nav-tabs.nav-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+.login-top{
+    height: 75px;
+    border-bottom: 1px solid #e3e3e3;
+    /*background-color: gray;*/
+    line-height: 75px;
+}
+.login-top .logo{
+    float: left;
+}
+.login-top .login-nav li a{
+    height: 75px;
+    font-size: 18px;
+    line-height: 55px;
+    color: #000000;
+}
+
+
+.login-body{
+    width: 1200px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.login-body .login-img{
+    /*border: 1px solid red;*/
+    width: 725px;
+    height: 405px;
+    background: url("../images/ad.jpg") no-repeat center;
+    background-size: cover;
+    float: left;
+}
+.login-body .login-form{
+    width: 455px;
+    height: 408px;
+    float: left;
+    border: 1px solid #E3E3E3;
+    margin-left: 20px;
+    position: relative;
+}
+.login-body .login-form img{
+    position: absolute;
+    top: 43px;
+    right: 98px;
+}
+.login-form .login-user-img{
+    margin-top: 40px;
+}
+.login-body .login-form h2{
+    text-align: center;
+    font-weight: normal;
+    color: #666;
+    font-size: 22px;
+}
+.login-body .login-form p{
+    text-align: center;
+    padding-top: 15px;
+
+}
+.login-body .login-form p input{
+    width: 280px;
+    height: 38px;
+    padding-left: 10px;
+    background-color: #FAFFBD;
+    border: 1px solid #E3E3E3;
+    border-radius: 5px;
+}
+.login-body .login-form .jzpwd{
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #848684;
+}
+.login-body .login-form .jzpwd .login-jzpwd-left{
+    padding: 0 0 20px 87px;
+}
+.login-body .login-form .jzpwd .login-jzpwd-right{
+    padding-left: 140px;
+}
+.login-body .login-form p button{
+    width: 280px;
+    height: 38px;color: #ffffff;
+    background-color: #DD3137;
+    border:none;
+}
+/*.login-body .container .row .form-login{*/
+    /*width: 455px;*/
+    /*border: 1px solid red;*/
+/*}*/

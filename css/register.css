@@ -1,0 +1,108 @@
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li > a:hover {
+    border-color: transparent;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #000000;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #ddd;
+}
+.nav-tabs.nav-justified {
+    width: 100%;
+    border-bottom: 0;
+}
+.nav-tabs.nav-justified > li {
+    float: none;
+}
+.nav-tabs.nav-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+.register-top{
+    height: 75px;
+    border-bottom: 1px solid #e3e3e3;
+    /*background-color: gray;*/
+    line-height: 75px;
+}
+.register-top .logo{
+    float: left;
+}
+.register-top .reight-nav li a{
+    height: 75px;
+    font-size: 18px;
+    line-height: 55px;
+    color: #000000;
+}
+
+
+.register-body{
+    padding-top: 100px;
+}
+.register-body .container .row .form-register{
+    border: 1px solid #E3E3E3;
+    height: 330px;
+}
+.register-body .container .row .form-register h2{
+    font-weight: normal;
+    color: #666;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+}
+.register-body .container .row .form-register p{
+    text-align: center;
+    padding-top: 10px;
+}
+.register-body .container .row .form-register input{
+    width: 330px;
+    height: 38px;
+    font-size: 14px;
+    border: 1px solid #E3E3E3;
+    border-radius: 3px 3px 3px 3px;
+    padding-left: 10px;
+    background-color: #FAFFBD;
+}
+.register-body #btn-register{
+    width: 330px;
+    height: 38px;
+    border: 1px solid #DD3137;
+    background-color: #DD3137;
+    color: #ffffff;
+    text-align: center;
+}
+.register-body .container .row .form-register .option{
+    font-size: 12px;
+    padding-left: 60px;
+    display: inline-block;
+    padding-top: 10px;
+}
+.register-body .container .row .form-register .option a{
+    color: #fe9305;
+    text-decoration: none;
+}
+.register-body .img-bgc{
+    width: 725px;
+    height: 330px;
+    /*-webkit-background-size: cover;*/
+    background: url("../images/reg.jpg") no-repeat center center;
+    background-size: cover;
+}
